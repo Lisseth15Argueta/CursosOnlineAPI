@@ -4,16 +4,16 @@ namespace OnlineCursosAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class cursosOnlineApiController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<cursosOnlineApiController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public cursosOnlineApiController(ILogger<cursosOnlineApiController> logger)
         {
             _logger = logger;
         }
